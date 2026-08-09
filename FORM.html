@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>Registration</title>
+</head>
+<body> 
+<H1>Students Registration Form</H1> 
+<form style="border: 3px solid black;"> 
+<hr>
+<label for="studentname">First Name</label><br>
+<input type="text" name="studentname" placeholder="Enter your first name here" required autofocus> <br>
+<label for="middlename">Midle Name</label><br>
+<input type="text" name="middlename" placeholder="Enter your middle name here"> <br>
+<label for="email">Email</label><br>
+<input type="email" name="email" size="30" placeholder="john@yahoo.com" required autocomplete=on><br> 
+<label for="borndate">Date of birth</label><br>
+<input type="date" name="borndate"><br> 
+Gender:<br> 
+<input type="radio" name="gender" value="Male" checked> Male
+<input type="radio" name="gender" value="Female"> Female <hr>
+Select your County: 
+<select> 
+	<option value="Nairobi">Nairobi</option> 
+	<option value="Mombasa">Mombasa</option> 
+	<option value="Kisumu">Kisumu</option> 
+	<option value="Eldoret">Eldoret</option> 
+</select> <br>
+Attach the National ID: <input type="file" name="myid"><br><hr>
+ <input type="submit" value="Click to Register"> 
+</form> 
+</body> 
+</html>
+
